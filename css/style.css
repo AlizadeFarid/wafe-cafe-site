@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica";
+    text-decoration: none;
+}
+
+body{
+    background: url('../images/bgimage.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    width: 100%;
+    padding: 30px;
+}
+.header{
+    width: 100%;
+    height: 150vh;
+}
+.left-side{
+    width: 40%;
+    height: 500px;
+    margin-right: 5%;
+    float: left;
+    position: fixed;
+}
+.left-side .logo{
+    width: 100%;
+    padding: 50px 100px;
+    background: #fff;
+    text-align: center;
+    color: #009999;
+
+}
+.logo i{
+    font-size: 55px;
+    margin-right: 10px;
+}
+.logo h1{
+    font-size: 38px;
+    font-weight: 500;
+    display: inline-block;
+}
+.buttons{
+    width: 100%;
+    height: 300px;
+    padding: 20px 0;
+}
+.buttons .row{
+    width: 100%;
+}
+.buttons a{
+    display: inline-block;
+    width: 48%;
+    height: 105px;
+    background:  #fff;
+    text-align: center;
+    line-height: 105px;
+    color: #009999;
+    font-size: 19px;
+    transition: 0.2s linear;
+}
+.buttons a:hover{
+    color: #fff;
+    background: #009999;
+}
+.buttons i{
+    margin-right: 20px;
+    margin-left: -70px;
+    font-size: 25px;
+}
+.buttons .left-button{
+    margin-right: 1%;
+    margin-bottom: 20px;
+}
+.buttons .right-button{
+    margin-left: 1%;
+    float: right;
+}
+.buttons .active{
+    background: #009999;
+    color: #fff;
+}
+/*--------------------Right-side----------------------*/
+.right-side{
+    width: 50%;
+    float: right;
+}
+.right-side .menu{
+    width: 100%;
+    padding: 30px 40px;
+    background: rgba(0,0,0,0.6);
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+.menu ul li a{
+    display: inline-block;
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s linear;
+}
+.menu ul li a:hover{
+    color: #009999;
+    text-decoration: underline;
+}
+.menu .active{
+    color: #009999;
+    text-decoration: underline;
+}
+.right-side .row{
+    width: 100%;
+    height: 180px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-side .row .image{
+    width: 20%;
+    padding-right: 20px;
+}
+.right-side .row .image{
+    width: 27%;
+    float: left;
+    text-align: center;
+}
+.right-side .row .content{
+    width: 70%;
+    float: right;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+}
+.right-side .content h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.right-side .content span{
+    font-size: 22px;
+    font-weight: 600;
+    color:#009999;
+    float: right;
+}
+.right-side .content p{
+    font-size: 19px;
+    color: #fff;
+    line-height: 30px;
+}
+/*-----------About page---------------------*/
+.right-side .card{
+    width: 100%;
+    padding: 70px 30px;
+    background: rgba(0,0,0,0.6);
+    margin-bottom: 20px;
+}
+.right-side .card img{
+    float: left;
+    margin-right: 20px;
+}
+.right-side .card h4{
+   font-size: 26px;
+   color:  #009999;
+   margin-bottom: 20px;
+}
+.right-side .card p{
+    font-size: 19px;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.right-side .card2 img{
+    float: right;
+}
+
+/*-------------Special page---------------------*/
+.right-side .boxes{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.right-side .boxes .box{
+    width: 45%;
+    height: 400px;
+    margin: 0 10px;
+    background: rgba(0,0,0,0.6);
+}
+.right-side .boxes .box img{
+    width: 100%;
+}
+.right-side .boxes .box h4{
+    font-size: 23px;
+    color:  #009999;
+    margin: 25px;
+}
+.right-side .boxes .box p{
+    font-size: 18px;
+    color: #fff;
+    margin: 0 25px 25px;
+    line-height: 30px;
+}
+/*-------------Contact page---------------------*/
+.right-side .contact{
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    padding: 50px;
+    margin-bottom: 20px;
+}
+.right-side .contact h4{
+    font-size: 27px;
+    color:  #009999;
+    margin-bottom: 25px;
+}
+.right-side .contact p{
+    font-size: 19px;
+    color: #fff;
+    line-height: 30px;
+}
+.right-side .contact input{
+    width: 100%;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 16px;
+}
+.right-side .contact textarea{
+    width: 100%;
+    height: 150px;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 16px;
+}
+.right-side .contact button{
+    color: #009999;
+    padding: 15px 45px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+.right-side .contact button:hover{
+    color: #fff;
+    background: #009999;
+}
+/*--------------------Footer----------------------*/
+.footer{
+    width: 40%;
+    padding: 15px;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+}
+footer{
+    width: 100%;
+    float: left;
+}
+footer p{
+    font-size: 18px;
+    color: #fff;
+}
